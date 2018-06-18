@@ -1,0 +1,171 @@
+{
+  "instruments":[
+        {
+          "type": "melodic",
+          "rows": 5,
+          "columns": 20,
+          "polyphony": 5,
+          "families": [
+            {
+              "id": 1,
+              "name": "Cuerdas",
+              "type": "melodic",
+              "instruments": [
+                {
+                  "id": 2,
+                  "name": "Contrabajo",
+                  "polyphony": 1,
+                  "picture": null,
+                  "color": "#ff9999",
+                  "sounds_folder": "Contrabajo",
+                  "family_id": 1
+                },
+                {
+                  "id": 1,
+                  "name": "Piano",
+                  "polyphony": 10,
+                  "picture": null,
+                  "color": "#ffffff",
+                  "sounds_folder": "Piano",
+                  "family_id": 1
+                },
+                {
+                  "id": 9,
+                  "name": "Viola",
+                  "polyphony": 1,
+                  "picture": null,
+                  "color": "#99ff00",
+                  "sounds_folder": "Viola",
+                  "family_id": 1
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Vientos",
+              "type": "melodic",
+              "instruments": [
+                {
+                  "id": 3,
+                  "name": "Clarinete",
+                  "polyphony": 1,
+                  "picture": null,
+                  "color": "#00ffff",
+                  "sounds_folder": "Clarinete",
+                  "family_id": 2
+                },
+                {
+                  "id": 4,
+                  "name": "Trompeta",
+                  "polyphony": 1,
+                  "picture": null,
+                  "color": "#ff00ff",
+                  "sounds_folder": "Trompeta",
+                  "family_id": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "percussion",
+          "rows": 3,
+          "columns": 20,
+          "polyphony": 2,
+          "families": [
+            {
+              "id": 3,
+              "name": "De placas",
+              "type": "percussion",
+              "instruments": [
+                {
+                  "id": 5,
+                  "name": "Carillón",
+                  "polyphony": 1,
+                  "picture": null,
+                  "color": "#00ff99",
+                  "sounds_folder": "Carillon",
+                  "family_id": 3
+                },
+                {
+                  "id": 6,
+                  "name": "Xilófono",
+                  "polyphony": 1,
+                  "picture": null,
+                  "color": "#666666",
+                  "sounds_folder": "Xilofono",
+                  "family_id": 3
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "name": "Percusión de parche",
+              "type": "percussion",
+              "instruments": [
+                {
+                  "id": 7,
+                  "name": "Bombo",
+                  "polyphony": 1,
+                  "picture": null,
+                  "color": "#999000",
+                  "sounds_folder": "Bombo",
+                  "family_id": 4
+                },
+                {
+                  "id": 8,
+                  "name": "Timbales",
+                  "polyphony": 1,
+                  "picture": null,
+                  "color": "#ff0000",
+                  "sounds_folder": "Timbales",
+                  "family_id": 4
+                }
+              ]
+            }
+          ]
+        }
+  ],
+  "composition":{
+      "context": {
+    "type": "melodic",
+    "rows": 5,
+    "columns": 20,
+    "polyphony": 5,
+    "instruments": [
+      1,
+      2
+    ]
+      },
+      "song": {
+    "sounds": [
+      {
+        "note": 1,
+        "tempo": 0,
+        "instrument": 1
+      },
+      {
+        "note": 3,
+        "tempo": 2,
+        "instrument": 2
+      },
+      {
+        "note": 1,
+        "tempo": 3,
+        "instrument": 1
+      }
+    ],
+    "instruments": [
+      {
+        "id": 1,
+        "volume": 1
+      },
+      {
+        "id": 2,
+        "volume": 0.1
+      }
+    ]
+      }
+  }
+}
+
