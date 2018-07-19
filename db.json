@@ -214,7 +214,7 @@
                     ],
                     "track_base": {
                         "name": "Base de chelos",
-                        "picture": "http://api.musicar.snappler.com/uploaded/festival_songs/estrellita/rock/base_chelo.png"
+                        "picture": "https://www.arc-verona.de/out/pictures/master/product/1/allegro-cello-set(2).png"
                     }
                 }
             ]
@@ -225,56 +225,56 @@
             "id": 5,
             "name": "Cello",
             "name_key": "cello",
-            "picture": null,
+            "picture": "https://www.arc-verona.de/out/pictures/master/product/1/allegro-cello-set(2).png",
             "color": null
         },
         {
             "id": 7,
             "name": "Guitarra",
             "name_key": "guitarra",
-            "picture": null,
+            "picture": "https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png",
             "color": null
         },
         {
             "id": 1,
             "name": "Guitarra eléctrica",
             "name_key": "guitarra_electrica",
-            "picture": null,
+            "picture": "https://www.bothnermusic.co.za/images/thumbs/0004978_cort-g100-opb-electric-guitar_550.png",
             "color": null
         },
         {
             "id": 2,
             "name": "Piano",
             "name_key": "piano",
-            "picture": "uploaded/festival_instruments/piano.png",
+            "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Piano.svg/991px-Piano.svg.png",
             "color": null
         },
         {
             "id": 3,
             "name": "Trombon",
             "name_key": "trombon",
-            "picture": null,
+            "picture": "https://cdn.pixabay.com/photo/2012/04/05/01/33/trombone-25688_960_720.png",
             "color": null
         },
         {
             "id": 4,
             "name": "Violín",
             "name_key": "violin",
-            "picture": null,
+            "picture": "https://ugc.kn3.net/i/origin/http://www.reddesertviolin.com/wp-content/uploads/2015/04/smallviolin.png",
             "color": null
         },
         {
             "id": 8,
             "name": "Violín",
             "name_key": "violin",
-            "picture": null,
+            "picture": "https://ugc.kn3.net/i/origin/http://www.reddesertviolin.com/wp-content/uploads/2015/04/smallviolin.png",
             "color": null
         },
         {
             "id": 6,
             "name": "Xilofón",
             "name_key": "xilofon",
-            "picture": null,
+            "picture": "http://www.arti.com.pe/images/stories/virtuemart/product/tac184.png",
             "color": null
         }
     ]
