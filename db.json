@@ -167,5 +167,117 @@
     ]
       }
   }
+  "festival":{
+    "songs": [
+        {
+            "id": 1,
+            "name": "El sol y la luna",
+            "styles": [
+                {
+                    "id": 1,
+                    "name": "Rock",
+                    "tracks": 3,
+                    "instruments_id": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "track_base": null
+                },
+                {
+                    "id": 2,
+                    "name": "Tango",
+                    "tracks": 2,
+                    "instruments_id": [
+                        1,
+                        2,
+                        4
+                    ],
+                    "track_base": null
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Estrellita",
+            "styles": [
+                {
+                    "id": 1,
+                    "name": "Rock",
+                    "tracks": 4,
+                    "instruments_id": [
+                        2,
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "track_base": {
+                        "name": "Base de chelos",
+                        "picture": "http://api.musicar.snappler.com/uploaded/festival_songs/estrellita/rock/base_chelo.png"
+                    }
+                }
+            ]
+        }
+    ],
+    "instruments": [
+        {
+            "id": 5,
+            "name": "Cello",
+            "name_key": "cello",
+            "picture": null,
+            "color": null
+        },
+        {
+            "id": 7,
+            "name": "Guitarra",
+            "name_key": "guitarra",
+            "picture": null,
+            "color": null
+        },
+        {
+            "id": 1,
+            "name": "Guitarra eléctrica",
+            "name_key": "guitarra_electrica",
+            "picture": null,
+            "color": null
+        },
+        {
+            "id": 2,
+            "name": "Piano",
+            "name_key": "piano",
+            "picture": "uploaded/festival_instruments/piano.png",
+            "color": null
+        },
+        {
+            "id": 3,
+            "name": "Trombon",
+            "name_key": "trombon",
+            "picture": null,
+            "color": null
+        },
+        {
+            "id": 4,
+            "name": "Violín",
+            "name_key": "violin",
+            "picture": null,
+            "color": null
+        },
+        {
+            "id": 8,
+            "name": "Violín",
+            "name_key": "violin",
+            "picture": null,
+            "color": null
+        },
+        {
+            "id": 6,
+            "name": "Xilofón",
+            "name_key": "xilofon",
+            "picture": null,
+            "color": null
+        }
+    ]
+}
 }
 
